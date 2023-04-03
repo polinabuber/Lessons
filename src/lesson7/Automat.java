@@ -3,6 +3,9 @@ package lesson7;
 import java.util.Scanner;
 
 public class Automat {
+    public static void main(String[] args) {
+
+    }
     final Product[] products = {
             new Product("Lays", 5),
             new Product("Snickers", 3),
