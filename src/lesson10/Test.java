@@ -1,6 +1,7 @@
 package lesson10;
 
 public class Test {
+    //Среднее арифметическое массива (задача с собеседования на senior java developer)
     public static double getMiddle(int[] numbers) {
         if (numbers == null || numbers.length == 0) {
             return 0;
