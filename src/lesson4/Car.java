@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Car {
 
-    Car(int price) {
+    public Car(int price) {
         System.out.println(price);
     }
 
@@ -35,4 +35,18 @@ public class Car {
         audiA8.model = "AUDI A8";
 
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "color=" + color +
+                ", model='" + model + '\'' +
+                '}';
+    }
+
+
+    public String getPlateNumber() {
+        return "XXX";
+    }
+
 }
