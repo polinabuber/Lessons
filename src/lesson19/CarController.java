@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class CarController {
     public List<CarValueObject> readFromFile (File file) throws IOException {
-        new BufferedReader(new FileReader(file))
+       return new BufferedReader(new FileReader(file))
                 .lines()
                 .map(s -> s.split(","))
                 .map(ars -> new CarValueObject(
@@ -25,7 +25,7 @@ public class CarController {
                 ))
                 .peek(System.out::println)
         .collect(Collectors.toList());
-        return null;
+
     }
 
     public static void main(String[] args) throws IOException {
