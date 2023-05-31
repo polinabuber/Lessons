@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+    <name language = "EN">Ivan</name>
+    <name language = "RU">Иван</name>
+    <kids/>
+    <a>
+        <b>&lt; &amp; Test &gt;</b>
+    </a>
+</person>
